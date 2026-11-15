@@ -188,8 +188,8 @@ export default function Home() {
                 <h1 className="text-2xl font-black tracking-tight text-white flex items-center gap-1.5">
                   Task<span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 via-purple-400 to-pink-400">Flow</span>
                 </h1>
-                <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[10px] font-semibold bg-emerald-500/10 text-emerald-400 border border-emerald-500/20">
-                  <Database className="h-2.5 w-2.5" /> SQLite Active
+                <span className="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full text-[10px] font-semibold bg-cyan-500/10 text-cyan-400 border border-cyan-500/20 shadow-[0_0_10px_-2px_rgba(6,182,212,0.3)]">
+                  <Database className="h-2.5 w-2.5" /> Neon PostgreSQL Active
                 </span>
               </div>
               <p className="text-xs text-slate-400">
@@ -403,10 +403,10 @@ export default function Home() {
 
         {/* Footer */}
         <footer className="pt-6 border-t border-white/5 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500 gap-2">
-          <p>© 2026 TaskFlow. Next.js 16 + Tailwind CSS + SQLite + Prisma ORM.</p>
+          <p>© 2026 TaskFlow. Next.js 16 + Tailwind CSS + Neon Serverless PostgreSQL + Prisma ORM.</p>
           <div className="flex items-center gap-4">
             <span className="flex items-center gap-1.5">
-              <span className="h-2 w-2 rounded-full bg-emerald-400" /> Server Lokal Siap
+              <span className="h-2 w-2 rounded-full bg-cyan-400 animate-pulse" /> Neon Cloud DB Connected
             </span>
             <span>Glassmorphism Dark UI</span>
           </div>
